@@ -3,7 +3,7 @@ import json
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-st.title("🤖 FAQ Chatbot")
+st.title("FAQ Chatbot")
 
 with open("faq.json") as file:
     data = json.load(file)
